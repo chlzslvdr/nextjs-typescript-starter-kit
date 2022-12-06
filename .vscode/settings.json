@@ -1,0 +1,19 @@
+{
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.trailingComma": "all",
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.bracketSameLine": false,
+  "editor.formatOnSave": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "javascript.format.enable": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all"
+}

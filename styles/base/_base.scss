@@ -1,0 +1,39 @@
+html {
+  @include respond(mobile) {
+    //1rem = 10px   10px/16px=62.5%
+    font-size: 62.5%;
+  }
+
+  @include respond(tablet) {
+    font-size: 100%;
+  }
+
+  @include respond(desktop) {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: $font-primary;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.6rem;
+    color: $black;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &::after,
+    &::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+    }
+
+    &:disabled {
+      cursor: default !important;
+    }
+  }
+}
